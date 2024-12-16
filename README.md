@@ -19,3 +19,23 @@ The application will not accept any arguments, and will return the result of the
 ## Phase 3: Specifying the request
 
 At this point, we can introduce command-line flags to allow the user to filter their search query with basic demands they may have for their house: e.g. a maximum price, a minimum number of bedrooms, and a minimum size (in square meters).
+
+## Installation and Running
+
+ Installation
+
+```bash
+go install github.com/kevslinger/funda-scraper-rewritten
+```
+
+Running
+
+```bash
+funda-scraper-rewritten
+```
+
+You can supply optional arguments `search-area`, `max-price`, `min-bedrooms`, `min-square-meters`. E.g.
+
+```bash
+funda-scraper-rewritten -search-area utrecht --maximum-price 575000 --minimum-bedrooms 3 --minimum-square-meters 100
+```
