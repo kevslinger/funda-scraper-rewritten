@@ -34,8 +34,8 @@ Running
 funda-scraper-rewritten
 ```
 
-You can supply optional arguments `search-area`, `max-price`, `min-bedrooms`, `min-square-meters`. E.g.
+You can supply optional arguments `area`, `max-price`, `min-bedrooms`, `min-square-meters`. E.g.
 
 ```bash
-funda-scraper-rewritten -search-area utrecht --maximum-price 575000 --minimum-bedrooms 3 --minimum-square-meters 100
+funda-scraper-rewritten --area utrecht --max-price 575000 --min-bedrooms 3 --min-square-meters 100
 ```
